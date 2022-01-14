@@ -28,7 +28,5 @@ yarn run serve   # default port is 8080 at tauri.conf.json
 ```shell
 cargo-tauri dev
 ```
-
-### 5 app review
-
+ 
 
