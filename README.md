@@ -1,24 +1,33 @@
-# notion-sofun-5.0
 
-## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## First EVN
 
-### Compiles and minifies for production
-```
-yarn build
+
+### 1、install cargo
+
+```shell
+curl https://sh.rustup.rs -sSf | sh
 ```
 
-### Lints and fixes files
-```
-yarn lint
+### 2、install cargo-tauri
+
+```shell
+cargo install tauri-cli --git https://github.com/tauri-apps/tauri
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### 3、run vue
+
+```shell
+yarn run serve   # default port is 8080 at tauri.conf.json
+```
+
+### 4、run app dev
+
+```shell
+cargo-tauri dev
+```
+
+### 5 app review
+
+

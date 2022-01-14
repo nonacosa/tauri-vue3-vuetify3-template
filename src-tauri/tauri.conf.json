@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "notion-sofun",
+    "productName": "tauri-vue3-vuetify3-template",
     "version": "0.1.0"
   },
   "build": {
@@ -53,7 +53,7 @@
     },
     "windows": [
       {
-        "title": "notion-sofun",
+        "title": "tauri-vue3-vuetify3-template",
         "width": 800,
         "height": 600,
         "resizable": true,
